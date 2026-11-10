@@ -17,9 +17,8 @@ jobs:
 
       - name: Проверка index.html
         run: test -s index.html
-
       - name: Проверка style.css
-       run: test -s style.css
+        run: test -s style.css
       - name: Проверка script.js
         run: test -s script.js
 
